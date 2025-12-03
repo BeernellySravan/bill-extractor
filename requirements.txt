@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pydantic
+pillow
+pytesseract
+pdf2image
+opencv-python-headless
+numpy
+requests
+pytest
+regex
+python-dotenv
