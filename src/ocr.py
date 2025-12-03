@@ -7,15 +7,9 @@ import pytesseract
 from urllib.parse import urlparse
 from src.config import POPPLER_PATH
 
-# ---------------------------------------------
-# 🔥 FIX: Explicitly set the Tesseract executable path
-# ---------------------------------------------
-# Make sure this path exists on your system:
-# C:\Program Files\Tesseract-OCR\tesseract.exe
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
-# Optional: set tessdata location (uncomment if needed)
-# os.environ["TESSDATA_PREFIX"] = r"C:\Program Files\Tesseract-OCR\tessdata"
+#pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
 
 
 def _normalize_local_path(path):
